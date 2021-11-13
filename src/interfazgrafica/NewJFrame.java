@@ -39,7 +39,9 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(0, 51, 255));
+        jButton1.setFont(new java.awt.Font("Arial Black", 0, 24)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 255, 255));
         jButton1.setText("Ingresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,6 +49,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
+        jTextField1.setBackground(new java.awt.Color(102, 102, 102));
         jTextField1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
         jTextField1.setText("ingrese su mes de nacimiento: \"Enero\"");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -55,6 +58,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
+        jTextField2.setBackground(new java.awt.Color(102, 102, 102));
         jTextField2.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
         jTextField2.setText("Ingrese su día de nacimiento");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -63,11 +67,13 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setBackground(new java.awt.Color(153, 153, 153));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/ZODIACO2.jpg"))); // NOI18N
         jLabel3.setToolTipText("");
         jLabel3.setAutoscrolls(true);
 
-        jLabel2.setFont(new java.awt.Font("Tw Cen MT", 0, 40)); // NOI18N
+        jLabel2.setBackground(new java.awt.Color(102, 102, 102));
+        jLabel2.setFont(new java.awt.Font("Arial Black", 0, 40)); // NOI18N
         jLabel2.setForeground(java.awt.Color.cyan);
         jLabel2.setText("TE GUSTARIA SABER TU SIGNO DEL ZODIACO");
 
@@ -87,10 +93,10 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 405, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(146, 146, 146)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(15, 15, 15))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(61, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addGap(33, 33, 33))
         );
