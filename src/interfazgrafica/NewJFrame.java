@@ -27,6 +27,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+<<<<<<< HEAD
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Algerian", 0, 40)); // NOI18N
         jLabel2.setForeground(java.awt.Color.blue);
@@ -45,22 +46,44 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel4.setText("Ingrese su mes de nacimiento. Ejemplo: \"Enero\"");
 
         jTextField1.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 18)); // NOI18N
+=======
+        jButton1.setBackground(new java.awt.Color(0, 51, 255));
+        jButton1.setFont(new java.awt.Font("Arial Black", 0, 24)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 255, 255));
+        jButton1.setText("Ingresar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jTextField1.setBackground(new java.awt.Color(102, 102, 102));
+        jTextField1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
+        jTextField1.setText("ingrese su mes de nacimiento: \"Enero\"");
+>>>>>>> d622f215b8061c44af9596d95dcaee34be89ccc3
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
 
+<<<<<<< HEAD
         jLabel5.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
         jLabel5.setText("Ingrese su día de nacimiento");
 
         jTextField2.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 18)); // NOI18N
+=======
+        jTextField2.setBackground(new java.awt.Color(102, 102, 102));
+        jTextField2.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
+        jTextField2.setText("Ingrese su día de nacimiento");
+>>>>>>> d622f215b8061c44af9596d95dcaee34be89ccc3
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
 
+<<<<<<< HEAD
         jButton1.setFont(new java.awt.Font("Copperplate Gothic Bold", 0, 24)); // NOI18N
         jButton1.setText("Consultar ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -77,6 +100,17 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel7.setForeground(java.awt.Color.blue);
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
+=======
+        jLabel3.setBackground(new java.awt.Color(153, 153, 153));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/ZODIACO2.jpg"))); // NOI18N
+        jLabel3.setToolTipText("");
+        jLabel3.setAutoscrolls(true);
+
+        jLabel2.setBackground(new java.awt.Color(102, 102, 102));
+        jLabel2.setFont(new java.awt.Font("Arial Black", 0, 40)); // NOI18N
+        jLabel2.setForeground(java.awt.Color.cyan);
+        jLabel2.setText("TE GUSTARIA SABER TU SIGNO DEL ZODIACO");
+>>>>>>> d622f215b8061c44af9596d95dcaee34be89ccc3
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -98,6 +132,7 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addGap(102, 102, 102)
                         .addComponent(jLabel5))
                     .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                         .addGap(98, 98, 98)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -112,6 +147,15 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel2)
                         .addGap(33, 33, 33))))
+=======
+                        .addGap(146, 146, 146)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(15, 15, 15))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(33, 33, 33))
+>>>>>>> d622f215b8061c44af9596d95dcaee34be89ccc3
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
